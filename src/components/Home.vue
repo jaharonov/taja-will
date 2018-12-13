@@ -117,7 +117,7 @@
     </p>
     <b-img class="p-2 pt-5 pb-5" center src="/static/dn3_2387.jpg" fluid/>
     <div class="pt-3">
-      <parallax-container>
+      <!-- <parallax-container>
 
     <parallax-element :parallaxStrength="1" :type="'translation'">
         <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
@@ -125,62 +125,56 @@
     <parallax-element :parallaxStrength="-5" :type="'translation'">
         <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
      </parallax-element>
-</parallax-container>
+</parallax-container> -->
     <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
     <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
+    </div>
+    <div>
+      <parallax-container class="p-1">
+    <parallax-element :parallaxStrength="1" :type="'translation'">
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+     </parallax-element>
+    <parallax-element :parallaxStrength="-5" :type="'translation'">
+        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
+     </parallax-element>
+</parallax-container>
     </div>
   </b-col>
   </b-row>
   <b-row>
-      <h4 class="text-left">Upcoming & Connection</h4>
+    <b-col lg="12">
+  <b-card title="Upcoming & Connection"
+          img-top
+          tag="article"
+          class="mb-2">
+    <p class="card-text text-justify">
+      <b-list-group>
+        <b-list-group-item>Panelist for <a href="http://apapnyciframe.azurewebsites.net/SessionDetail.aspx?id=482281" target="_blank">Building a Code of Ethics in the Era of #metoo</a> at APAP, New York January 4th, 2019</b-list-group-item>
+        <b-list-group-item>Co-Curator of <a href="http://www.tctwentypercent.org/current-season/controlled-burn/" target="_blank">20% Theater Company Controlled Burn</a> <i>Queer Performance for a World on Fire.</i></b-list-group-item>
+        <b-list-group-item>Cowles Center Generating Room Artist-in-Residence January - May 2019
+This residency will support the development of a new work, Blood Language, and host free workshop and community dialogue events around the topics of improvisation and artistic authorship, identity politics, diversity and inclusion.</b-list-group-item>
+        <b-list-group-item>Blood Language is a new ensemble work, it is a ritual of identity, personified by archetypes; which centers experiences of otherness, belonging and duality within oneself; authored by an ensemble of BIPOC, queer and artists with invisible disabilities.</b-list-group-item>
+        <b-list-group-item>Happy Hour performance of Blood Language at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
+        <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at Zenon Dance School, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
+        <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
+        <b-list-group-item>Taja Will <a href="http://www.mcknightdancechoreo.org/fellows/taja-will">McKnight Choreography Fellow</a></b-list-group-item>
+      </b-list-group>
+    </p>
+  </b-card>
+</b-col>
     </b-row>
+      <b-col lg="4"></b-col>
+      <b-col lg="4">  
+        <!-- <a href="https://vimeo.com/user4594927" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
+        <a href="mailto:tajawill@gmail.com" target="_blank"><b-img src="/static/email-12-24.png"/></a>
+        <a href="https://www.instagram.com/tajawillxo/" target="_blank"><b-img src="/static/instagram-5-24.png"/></a> -->
+      </b-col>
+      <b-col lg="4"></b-col>
+    
   </div>
 </template>
 
-<style>
-a:link {
-  text-decoration: none;
-}
-h1, h2 {
-  font-weight: normal;
-}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-
-/* mouse over link */
-a:hover {
-  color: #3aa173;
-}
-
-/* selected link */
-a:active {
-  color: lightcoral;
-}
-
-body {
-  margin: 0;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  position: relative;
-}
-</style>
 <script>
   import Parallax from 'vue-parallaxy'
   export default {

@@ -12,7 +12,51 @@
   <div id="app" variant="transparent">
     <div class="fixed-top p-2">
     <header>
-      <h1 class="text-left">TAJA WILL</h1>
+      <b-navbar toggleable="md" variant="transparent">
+
+  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+
+  <b-navbar-brand href="#"><h1>TAJA WILL</h1></b-navbar-brand>
+
+  <b-collapse is-nav id="nav_collapse">
+
+    <b-navbar-nav>
+      <b-nav-item href="#">Link</b-nav-item>
+      <b-nav-item href="#" disabled>Disabled</b-nav-item>
+    </b-navbar-nav>
+
+    <!-- Right aligned nav items -->
+    <b-navbar-nav class="ml-auto">
+
+      <b-nav-item-dropdown text="Lang" right>
+        <b-dropdown-item href="#">EN</b-dropdown-item>
+        <b-dropdown-item href="#">ES</b-dropdown-item>
+        <b-dropdown-item href="#">RU</b-dropdown-item>
+        <b-dropdown-item href="#">FA</b-dropdown-item>
+      </b-nav-item-dropdown>
+
+      <b-nav-item-dropdown right>
+        <!-- Using button-content slot -->
+        <b-dropdown-item href="#">Profile</b-dropdown-item>
+        <b-dropdown-item href="#">Signout</b-dropdown-item>
+      </b-nav-item-dropdown>
+    </b-navbar-nav>
+
+  </b-collapse>
+</b-navbar>
+      <!-- <h1 class="text-left">TAJA WILL</h1>
+      <span class="float-right">
+  <b-btn v-b-toggle.collapse1 variant="primary">Toggle Collapse</b-btn>
+  <b-collapse id="collapse1" class="mt-2">
+    <b-card>
+      <p class="card-text">Collapse contents Here</p>
+      <b-btn v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</b-btn>
+      <b-collapse id=collapse1_inner class="mt-2">
+        <b-card>Hello!</b-card>
+      </b-collapse>
+    </b-card>
+  </b-collapse>
+</span> -->
     </header>
 <div class="row">
 <div class="col-3">
@@ -31,14 +75,14 @@
       <!-- <div class="row fixed-bottom"> -->
       
    
-    <footer class="pb-2">
+    <footer class="p-2">
+      <div class="float-center">
+        <a href="https://vimeo.com/user4594927" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
+        <a href="mailto:tajawill@gmail.com" target="_blank"><b-img src="/static/email-12-24.png"/></a>
+        <a href="https://www.instagram.com/tajawillxo/" target="_blank"><b-img src="/static/instagram-5-24.png"/></a>
+      </div>
       <br/>
-      <b-container class="pb-2">
-      <a href="https://www.facebook.com/motorcity.tapfest" target="_blank"><b-img :src="'./static/facebook.png'"/></a>
-      <a href="https://www.instagram.com/motorcitytapfest/" target="_blank"><b-img :src="'./static/instagram.png'"/></a>
-      <a href="https://twitter.com/motorcitytap" target="_blank"><b-img :src="'./static/twitter.png'"/></a>
-      <br/>
-      </b-container>
+
        <span>&copy;2018 Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
@@ -52,12 +96,14 @@
   </html>
 </template>
 
-<style>
+<style lang="scss">
+
 a:link {
   text-decoration: none;
 }
 h1, h2 {
   font-weight: normal;
+  color: #2c3e50;
 }
 
 ul {
@@ -70,19 +116,17 @@ li {
   margin: 0 10px;
 }
 
-a {
+/* a {
   color: #42b983;
 }
 
-/* mouse over link */
 a:hover {
   color: #3aa173;
 }
 
-/* selected link */
 a:active {
   color: lightcoral;
-}
+} */
 
 body {
   margin: 0;
@@ -95,6 +139,8 @@ body {
   color: #2c3e50;
   position: relative;
 }
+@import './styles/custom-bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 </style>
 
 <script type="javascript">
