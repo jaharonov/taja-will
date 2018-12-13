@@ -45,13 +45,15 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
     <p class="text-justify">
      Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
     </p>
-    <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/>
-    
+    <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
+    <div style="padding:60% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/274270653" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
     <!-- <parallax :speed-factor="1">
   <b-img center src="/static/ciwbrian.jpg"/>
   </parallax> -->
   </b-col>
-  <b-row>
+  <b-row class="p-2">
     <h2><strong><i>'She's after connection. Looking at Will is like opening the door to a fire: she glows'</i></strong> Lightsey Darst for MN Artists</h2>
   </b-row>
   <b-col lg="6" class="p-3">
@@ -84,7 +86,7 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
   </parallax>
   </b-col>
   <b-col class="p-3">
-    <h4>Biography</h4>
+    <!-- <h4>Biography</h4>
     <p class="text-justify">
       Taja Will is a queer, Chilean adoptee, performer, choreographer, therapist and restorative justice facilitator. Her approach integrates improvisation, somatic modalities, text and vocals in contemporary  performance. Will’s aesthetic is one of spontaneity, bold choice making, sonic and kinetic partnership and the ability to move in relationship to risk and intimacy.  She explores visceral connections to current socio-cultural realities through feminine archetypes and everyday magic.
     </p>
@@ -93,7 +95,7 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
       and in relationship to an audience. When we come into a moment of connection, we do it with the intention to completely engage each other, 
       without representing intimacy, we commit to being intimate. This is part of the magic, using intention, improvisation and design to create 
       new works that comment on how I perceive contemporary humanity.
-    </p>
+    </p> -->
   </b-col>
   <b-col class="p-3">hi</b-col>
 
