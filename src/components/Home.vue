@@ -27,8 +27,8 @@
   </parallax>
   </b-col>
   <b-col lg="6" class="p-3 pt-5">
-  <parallax :speed-factor="1" :parallax="true">
-  <b-img center src="/static/headshot4.jpg" fluid/>
+  <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
+  <b-img center src="/static/headshot4.jpg" fluid-grow/>
   </parallax>
   </b-col>
   <b-col class="p-3 text-left pt-5">
@@ -37,26 +37,62 @@
       <strong>Gospels of Oblivion: To the End 2018</strong>
     </p>
     <p class="text-justify">
-      ‘Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom. — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" target="_blank">Gospels of Oblivion: To the End</a>,  May 2018 
-
-Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
-
+      ‘Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom. — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" target="_blank">Gospels of Oblivion: To the End</a>,  May 2018. 
     </p>
-    <p class="text-justify">
-     Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
+    <p>Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
+
     </p>
     <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
-    <div style="padding:60% 0 0 0;position:relative;">
-      <iframe src="https://player.vimeo.com/video/274270653" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
+    <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274270653?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
     <!-- <parallax :speed-factor="1">
   <b-img center src="/static/ciwbrian.jpg"/>
   </parallax> -->
   </b-col>
   <b-row class="p-2 pt-5 pb-5">
-    <h2><strong><i>'She's after connection. Looking at Will is like opening the door to a fire: she glows'</i></strong> Lightsey Darst for MN Artists</h2>
+    <h2><strong><i>She's after connection. Looking at Will is like opening the door to a fire: she glows</i></strong><i>—Lightsey Darst for MN Artists</i></h2>
   </b-row>
+  <b-col class="p-3 text-left pt-3">
+    <p class="text-left">
+      <strong>Bruja // Fugitive Majesty 2017</strong>
+    </p>
+    <p class="text-justify">
+      An evening length solo woven from Will’s personal mythology. She creates the magical world of her genetic and artistic identity. As a queer, transracial adoptee she has come to know herself as a cultural fugitive, taking on personality as it fits; shape-shifting as way to escape displacement; this is the preservation of identity.
+    </p>
+    <p>
+      Presented by The Right Here Showcase at the Tek Box Theater, created with support of the Jerome Foundation Travel Study Award, Foundation for Contemporary Arts Emergency grant, and developed as artist in residency at the Joe Goode Annex in San Francisco.
+    </p>
+    <p class="text-justify">
+     Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
+    </p>
+    <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
+    <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/227052411?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+    <!-- <parallax :speed-factor="1">
+  <b-img center src="/static/ciwbrian.jpg"/>
+  </parallax> -->
+  </b-col>
+  <!-- <b-col class="p-3">
+  <parallax :speed-factor="1">
+  <b-img center src="/static/ciwbrian.jpg" fluid/>
+  </parallax>
+  </b-col> -->
   <b-col lg="6" class="p-3">
+    <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
+  <b-img center src="/static/ciwbrian.jpg" fluid/>
+  </parallax>
+    <!-- <parallax-container>
+
+            <parallax-element :parallaxStrength="-5" :type="'translation'">
+              
+              <b-img center src="/static/ciwbrian.jpg" fluid-grow/>
+            </parallax-element>
+
+        </parallax-container> -->
+  <!-- <parallax :speed-factor="1">
+  <b-img center src="/static/ciwbrian.jpg" fluid/>
+  </parallax> -->
+  </b-col>
+  <b-col lg="6" class="p-3 pt-5">
     <h4 class="text-left">Biography</h4>
     <p class="text-justify">
       Taja Will is a queer, Chilean adoptee, performer, choreographer, therapist and restorative justice facilitator. Her approach integrates improvisation, somatic modalities, text and vocals in contemporary  performance. Will’s aesthetic is one of spontaneity, bold choice making, sonic and kinetic partnership and the ability to move in relationship to risk and intimacy.  She explores visceral connections to current socio-cultural realities through feminine archetypes and everyday magic.
@@ -69,36 +105,31 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
     </p>
     <p class="text-justify">
       An an educator Will has been a guest teacher and adjunct faculty at several institutions locally and throughout the United States. She has presented workshops at Hamline University, Luther College, Knox College, Earthdance Creative Living, Moving Arts Lab, Sierra Contact Festival, wcciJam, Dance New England, Zenon Dance School, the Peaceable Barn, and the Lion's Jaw Festival among others. Will also works in healing justice and as an advocate for artists especially serving as a liaison for artists in experimental forms, people of color and the LGBTQ communities. 
-
     </p>
-  <!-- <parallax :speed-factor="1">
-  <b-img center src="/static/1bygalen.jpg" fluid/>
-  </parallax> -->
   </b-col>
-  <!-- <b-col class="p-3">
-  <parallax :speed-factor="1">
-  <b-img center src="/static/ciwbrian.jpg" fluid/>
-  </parallax>
-  </b-col> -->
-  <b-col lg="6" class="p-3">
-  <parallax :speed-factor="1">
-  <b-img center src="/static/ciwbrian.jpg" fluid/>
-  </parallax>
-  </b-col>
-  <b-col class="p-3">
-    <!-- <h4>Biography</h4>
+  <b-col lg="6" class="p-3 pt-5">
+    <h4 class="text-left">Educator & Facilitator</h4>
     <p class="text-justify">
-      Taja Will is a queer, Chilean adoptee, performer, choreographer, therapist and restorative justice facilitator. Her approach integrates improvisation, somatic modalities, text and vocals in contemporary  performance. Will’s aesthetic is one of spontaneity, bold choice making, sonic and kinetic partnership and the ability to move in relationship to risk and intimacy.  She explores visceral connections to current socio-cultural realities through feminine archetypes and everyday magic.
+      My practice and pedagogy are grounded in somatic practices, structures of performative improvisation, contact improvisation and everyday magic. Within a workshop or laboratory structure I’m interested in the foundational awareness of systemic power dynamics, cultural patterns of privilege, and our ability to shift toward greater equity in an embodied, co-learning space.
     </p>
     <p class="text-justify">
-      My work centers relationships. I crave an aesthetic of closeness; which allows performers to move with intimacy and risk, with each other 
-      and in relationship to an audience. When we come into a moment of connection, we do it with the intention to completely engage each other, 
-      without representing intimacy, we commit to being intimate. This is part of the magic, using intention, improvisation and design to create 
-      new works that comment on how I perceive contemporary humanity.
-    </p> -->
-  </b-col>
-  <b-col class="p-3">hi</b-col>
+      I continue to be inspired to teach the fundamentals and deep research of contact improvisation with a restorative justice and consent framing. As a Diversity & Inclusion consultant and facilitator I am interested in updating community spaces, guidelines, and awareness to reflect more inclusive practices for artists with marginalized identities.
+    </p>
+    <b-img class="p-2 pt-5 pb-5" center src="/static/dn3_2387.jpg" fluid/>
+    <div class="pt-3">
+      <parallax-container>
 
+    <parallax-element :parallaxStrength="1" :type="'translation'">
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+     </parallax-element>
+    <parallax-element :parallaxStrength="-5" :type="'translation'">
+        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
+     </parallax-element>
+</parallax-container>
+    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+    <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
+    </div>
+  </b-col>
   </b-row>
   <b-row>
       <p>hi</p>
@@ -118,36 +149,4 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}
-</style>
-
-<style>
-body {
-  margin: 0;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  position: relative;
-}
-</style>

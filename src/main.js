@@ -7,7 +7,9 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import VueMouseParallax from 'vue-mouse-parallax'
 
+Vue.use(VueMouseParallax)
 Vue.use(BootstrapVue)
 Vue.use(Parallax)
 Vue.config.productionTip = false
