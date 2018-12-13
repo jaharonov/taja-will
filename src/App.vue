@@ -83,9 +83,7 @@ a:hover {
 a:active {
   color: lightcoral;
 }
-</style>
 
-<style>
 body {
   margin: 0;
 }

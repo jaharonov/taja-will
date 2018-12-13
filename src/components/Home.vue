@@ -132,7 +132,7 @@
   </b-col>
   </b-row>
   <b-row>
-      <p>hi</p>
+      <h4 class="text-left">Upcoming & Connection</h4>
     </b-row>
   </div>
 </template>
