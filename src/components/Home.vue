@@ -22,7 +22,7 @@
 
   </b-col>
   <b-col lg="7" class="p-3 pb-5">
-  <parallax :speed-factor="0.6" :parallax="true">
+  <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/bestever.jpg" fluid/>
   </parallax>
   </b-col>
