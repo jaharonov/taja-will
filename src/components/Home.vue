@@ -2,7 +2,7 @@
 
   <div class="hello">
   <b-row>
-  <b-col class="p-3">
+  <b-col class="p-3 pb-5">
     <h4 class="text-left">Socially Engaged Artist & Healing Practitioner</h4>
     <p class="text-justify">
       My work animates questions of identity. I value seeing the body in a spectrum from virtuosic spontaneity to blunt gestural unison. 
@@ -21,17 +21,17 @@
     </p>
 
   </b-col>
-  <b-col lg="7" class="p-3">
+  <b-col lg="7" class="p-3 pb-5">
   <parallax :speed-factor="0.6" :parallax="true">
   <b-img center src="/static/bestever.jpg" fluid/>
   </parallax>
   </b-col>
-  <b-col lg="6" class="p-3">
+  <b-col lg="6" class="p-3 pt-5">
   <parallax :speed-factor="1" :parallax="true">
   <b-img center src="/static/headshot4.jpg" fluid/>
   </parallax>
   </b-col>
-  <b-col class="p-3 text-left">
+  <b-col class="p-3 text-left pt-5">
     <h4>Choreographer & Performer</h4>
     <p class="text-left">
       <strong>Gospels of Oblivion: To the End 2018</strong>
@@ -53,7 +53,7 @@ Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theat
   <b-img center src="/static/ciwbrian.jpg"/>
   </parallax> -->
   </b-col>
-  <b-row class="p-2">
+  <b-row class="p-2 pt-5 pb-5">
     <h2><strong><i>'She's after connection. Looking at Will is like opening the door to a fire: she glows'</i></strong> Lightsey Darst for MN Artists</h2>
   </b-row>
   <b-col lg="6" class="p-3">
