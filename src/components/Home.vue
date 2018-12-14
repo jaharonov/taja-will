@@ -157,7 +157,7 @@ This residency will support the development of a new work, Blood Language, and h
         <b-list-group-item>Happy Hour performance of Blood Language at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
         <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at Zenon Dance School, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
         <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" type="primary" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
-        <b-list-group-item>Taja Will <a href="http://www.mcknightdancechoreo.org/fellows/taja-will">McKnight Choreography Fellow</a></b-list-group-item>
+        <b-list-group-item>Taja Will <a href="http://www.mcknightdancechoreo.org/fellows/taja-will" type="primary" target="_blank">McKnight Choreography Fellow</a></b-list-group-item>
       </b-list-group>
     </p>
   </b-card>
@@ -173,9 +173,8 @@ This residency will support the development of a new work, Blood Language, and h
     
   </div>
 </template>
-<style>
-.green {
-  color: #1AA17F;
+<style lang="scss">
+a {
   text-decoration: none;
 }
 </style>
