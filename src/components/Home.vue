@@ -173,11 +173,6 @@ This residency will support the development of a new work, Blood Language, and h
     
   </div>
 </template>
-<style lang="scss">
-a {
-  text-decoration: none;
-}
-</style>
 
 <script>
   import Parallax from 'vue-parallaxy'
