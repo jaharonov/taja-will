@@ -104,13 +104,13 @@
    
     <footer class="p-2">
       <div class="float-center">
-        <a href="https://vimeo.com/user4594927" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
-        <a href="mailto:tajawill@gmail.com" target="_blank"><b-img src="/static/email-12-24.png"/></a>
-        <a href="https://www.instagram.com/tajawillxo/" target="_blank"><b-img src="/static/instagram-5-24.png"/></a>
+        <a href="https://vimeo.com/user4594927" class="green" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
+        <a href="mailto:tajawill@gmail.com" class="green" target="_blank"><b-img src="/static/email-12-24.png"/></a>
+        <a href="https://www.instagram.com/tajawillxo/" class="green" target="_blank"><b-img src="/static/instagram-5-24.png"/></a>
       </div>
       <br/>
 
-       <span>&copy;2018 Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
+       <span>&copy;2018 Website by <a href="http://www.jaharonov.com" class="green" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
     
