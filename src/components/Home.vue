@@ -5,19 +5,22 @@
   <b-col class="p-3 pb-5">
     <h4 class="text-left">Socially Engaged Artist & Healing Practitioner</h4>
     <p class="text-justify">
-      My work animates questions of identity. I value seeing the body in a spectrum from virtuosic spontaneity to blunt gestural unison. 
+      <i>My work animates questions of identity.</i>
+    </p>
+    <p class="text-justify">
+      <i>I value seeing the body in a spectrum from virtuosic spontaneity to blunt gestural unison. 
       My aesthetics insist on attention to revolving state-based material for example a sense of loneliness, or control, or tenderness, 
       or humor, or dissonance, or ritual, or a combination; resulting in multi-dimensional layering of physical and vocal expressivity. 
       Themes in my work comprise of collective humanity; how we exist in our mundane and extraordinary socio-cultural environments. 
       Identity is at the core of my values and how it unfolds defines my creative process. In my recently published article for Contact 
       Quarterly, I write: “Folks with marginalized identities are somatically and psychically guarded, from generations past and a lifetime 
-      of systemic oppression; it is in the body and it will enter the dance.” 
+      of systemic oppression;<strong> it is in the body and it will enter the dance.</strong>”</i>
     </p>
     <p class="text-justify">
-      My work centers relationships. I crave an aesthetic of closeness; which allows performers to move with intimacy and risk, with each other 
+      <i>My work centers relationships. I crave an aesthetic of closeness; which allows performers to move with intimacy and risk, with each other 
       and in relationship to an audience. When we come into a moment of connection, we do it with the intention to completely engage each other, 
       without representing intimacy, we commit to being intimate. This is part of the magic, using intention, improvisation and design to create 
-      new works that comment on how I perceive contemporary humanity.
+      new works that comment on how I perceive contemporary humanity.</i>
     </p>
 
   </b-col>
@@ -26,11 +29,8 @@
   <b-img center src="/static/bestever.jpg" fluid/>
   </parallax>
   </b-col>
-  <b-col lg="6" class="p-3 pt-5">
-  <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
-  <b-img center src="/static/headshot4.jpg" fluid-grow/>
-  </parallax>
-  </b-col>
+  </b-row>
+  <b-row>
   <b-col class="p-3 text-left pt-5">
     <h4>Choreographer & Performer</h4>
     <p class="text-left">
@@ -43,15 +43,18 @@
 
     </p>
     <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
-    <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274270653?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
     <!-- <parallax :speed-factor="1">
   <b-img center src="/static/ciwbrian.jpg"/>
   </parallax> -->
   </b-col>
+  <b-col lg="6" class="pt-5 p-3">
+    <div style="padding:70% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274270653?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+  </b-col>
   <b-row class="p-2 pt-5 pb-5">
     <h2><strong><i>She's after connection. Looking at Will is like opening the door to a fire: she glows</i></strong><i>—Lightsey Darst for MN Artists</i></h2>
   </b-row>
-  <b-col class="p-3 text-left pt-3">
+  <b-row>
+  <b-col lg="6" class="p-3 text-left pt-3">
     <p class="text-left">
       <strong>Bruja // Fugitive Majesty 2017</strong>
     </p>
@@ -64,19 +67,21 @@
     <p class="text-justify">
      Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
     </p>
+    </b-col>
     <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
-    <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/227052411?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
+    <b-col lg="6" class="pt-4">
+    <div style="padding:70% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/227052411?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
     <!-- <parallax :speed-factor="1">
   <b-img center src="/static/ciwbrian.jpg"/>
   </parallax> -->
   </b-col>
+  </b-row>
   <!-- <b-col class="p-3">
   <parallax :speed-factor="1">
   <b-img center src="/static/ciwbrian.jpg" fluid/>
   </parallax>
   </b-col> -->
-  <b-col lg="6" class="p-3">
+  <b-col lg="6" class="p-3 pt-5">
     <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/ciwbrian.jpg" fluid/>
   </parallax>
@@ -93,6 +98,49 @@
   </parallax> -->
   </b-col>
   <b-col lg="6" class="p-3 pt-5">
+    <h4 class="text-left">Educator & Facilitator</h4>
+    <p class="text-justify">
+      My practice and pedagogy are grounded in somatic practices, structures of performative improvisation, contact improvisation and everyday magic. Within a workshop or laboratory structure I’m interested in the foundational awareness of systemic power dynamics, cultural patterns of privilege, and our ability to shift toward greater equity in an embodied, co-learning space.
+    </p>
+    <p class="text-justify">
+      I continue to be inspired to teach the fundamentals and deep research of contact improvisation with a restorative justice and consent framing. As a Diversity & Inclusion consultant and facilitator I am interested in updating community spaces, guidelines, and awareness to reflect more inclusive practices for artists with marginalized identities.
+    </p>
+     <div>
+      <parallax-container class="pt-5 p-1">
+    <parallax-element :parallaxStrength="1" :type="'translation'">
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+     </parallax-element>
+    <parallax-element :parallaxStrength="-5" :type="'translation'">
+        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
+     </parallax-element>
+</parallax-container>
+    </div>
+    <div class="p-1 pt-5">
+      <parallax-container>
+    <parallax-element :parallaxStrength="6" :type="'translation'">
+        <p class="text-justify"><strong><i>“Issues of diversity and inclusion aren’t new conversations, but our current sociopolitical climate is requiring that these dialogues continuously update. A safe space for a white practitioner is not the same as a safe space for a POC practitioner.“</i></strong></p>
+     </parallax-element>
+</parallax-container>
+    </div>
+  </b-col>
+  <b-col lg="6" class="p-3 pt-5">
+    <!-- <b-img class="p-2 pt-5 pb-5" center src="/static/dn3_2387.jpg" fluid/> -->
+      <!-- <parallax-container>
+
+    <parallax-element :parallaxStrength="1" :type="'translation'">
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+     </parallax-element>
+    <parallax-element :parallaxStrength="-5" :type="'translation'">
+        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
+     </parallax-element>
+</parallax-container> -->
+    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+    <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
+    
+  </b-col>
+  </b-row>
+  <b-row>
+  <b-col lg="6" class="p-3 pb-5">
     <h4 class="text-left">Biography</h4>
     <p class="text-justify">
       Taja Will is a queer, Chilean adoptee, performer, choreographer, therapist and restorative justice facilitator. Her approach integrates improvisation, somatic modalities, text and vocals in contemporary  performance. Will’s aesthetic is one of spontaneity, bold choice making, sonic and kinetic partnership and the ability to move in relationship to risk and intimacy.  She explores visceral connections to current socio-cultural realities through feminine archetypes and everyday magic.
@@ -106,39 +154,12 @@
     <p class="text-justify">
       An an educator Will has been a guest teacher and adjunct faculty at several institutions locally and throughout the United States. She has presented workshops at Hamline University, Luther College, Knox College, Earthdance Creative Living, Moving Arts Lab, Sierra Contact Festival, wcciJam, Dance New England, Zenon Dance School, the Peaceable Barn, and the Lion's Jaw Festival among others. Will also works in healing justice and as an advocate for artists especially serving as a liaison for artists in experimental forms, people of color and the LGBTQ communities. 
     </p>
-  </b-col>
-  <b-col lg="6" class="p-3 pt-5">
-    <h4 class="text-left">Educator & Facilitator</h4>
-    <p class="text-justify">
-      My practice and pedagogy are grounded in somatic practices, structures of performative improvisation, contact improvisation and everyday magic. Within a workshop or laboratory structure I’m interested in the foundational awareness of systemic power dynamics, cultural patterns of privilege, and our ability to shift toward greater equity in an embodied, co-learning space.
-    </p>
-    <p class="text-justify">
-      I continue to be inspired to teach the fundamentals and deep research of contact improvisation with a restorative justice and consent framing. As a Diversity & Inclusion consultant and facilitator I am interested in updating community spaces, guidelines, and awareness to reflect more inclusive practices for artists with marginalized identities.
-    </p>
-    <b-img class="p-2 pt-5 pb-5" center src="/static/dn3_2387.jpg" fluid/>
-    <div class="pt-3">
-      <!-- <parallax-container>
 
-    <parallax-element :parallaxStrength="1" :type="'translation'">
-        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
-     </parallax-element>
-    <parallax-element :parallaxStrength="-5" :type="'translation'">
-        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
-     </parallax-element>
-</parallax-container> -->
-    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
-    <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
-    </div>
-    <div>
-      <parallax-container class="p-1">
-    <parallax-element :parallaxStrength="1" :type="'translation'">
-        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
-     </parallax-element>
-    <parallax-element :parallaxStrength="-5" :type="'translation'">
-        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
-     </parallax-element>
-</parallax-container>
-    </div>
+  </b-col>
+  <b-col lg="6" class="p-3 pb-5">
+  <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
+  <b-img center src="/static/headshot4.jpg" class="pt-5" fluid-grow/>
+  </parallax>
   </b-col>
   </b-row>
   <b-row>
@@ -157,7 +178,7 @@ This residency will support the development of a new work, Blood Language, and h
         <b-list-group-item>Happy Hour performance of Blood Language at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
         <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at Zenon Dance School, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
         <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" type="primary" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
-        <b-list-group-item>Taja Will <a href="http://www.mcknightdancechoreo.org/fellows/taja-will" type="primary" target="_blank">McKnight Choreography Fellow</a></b-list-group-item>
+        <b-list-group-item>2018-2019 <a href="http://www.mcknightdancechoreo.org/fellows/taja-will" type="primary" target="_blank">McKnight Choreography Fellow</a></b-list-group-item>
       </b-list-group>
     </p>
   </b-card>
