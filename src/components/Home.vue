@@ -11,8 +11,10 @@
       <i>I value seeing the body in a spectrum from virtuosic spontaneity to blunt gestural unison. 
       My aesthetics insist on attention to revolving state-based material for example a sense of loneliness, or control, or tenderness, 
       or humor, or dissonance, or ritual, or a combination; resulting in multi-dimensional layering of physical and vocal expressivity. 
-      Themes in my work comprise of collective humanity; how we exist in our mundane and extraordinary socio-cultural environments. 
-      Identity is at the core of my values and how it unfolds defines my creative process. In my recently published article for Contact 
+      Themes in my work comprise of collective humanity; how we exist in our mundane and extraordinary socio-cultural environments.</i>
+    </p>
+    <p class="text-justify">
+      <i>Identity is at the core of my values and how it unfolds defines my creative process. In my recently published article for Contact 
       Quarterly, I write: “Folks with marginalized identities are somatically and psychically guarded, from generations past and a lifetime 
       of systemic oppression;<strong> it is in the body and it will enter the dance.</strong>”</i>
     </p>
