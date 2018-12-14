@@ -37,7 +37,7 @@
       <strong>Gospels of Oblivion: To the End 2018</strong>
     </p>
     <p class="text-justify">
-      ‘Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom. — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" class="green" target="_blank">Gospels of Oblivion: To the End</a>,  May 2018. 
+      ‘Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom. — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" type="primary" target="_blank">Gospels of Oblivion: To the End</a>,  May 2018. 
     </p>
     <p>Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
 
@@ -120,19 +120,19 @@
       <!-- <parallax-container>
 
     <parallax-element :parallaxStrength="1" :type="'translation'">
-        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" class="green" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
      </parallax-element>
     <parallax-element :parallaxStrength="-5" :type="'translation'">
         <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
      </parallax-element>
 </parallax-container> -->
-    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" class="green" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
     <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
     </div>
     <div>
       <parallax-container class="p-1">
     <parallax-element :parallaxStrength="1" :type="'translation'">
-        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" class="green" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
+        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
      </parallax-element>
     <parallax-element :parallaxStrength="-5" :type="'translation'">
         <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
@@ -149,14 +149,14 @@
           class="mb-2">
     <p class="card-text text-justify">
       <b-list-group>
-        <b-list-group-item>Panelist for <a href="http://apapnyciframe.azurewebsites.net/SessionDetail.aspx?id=482281" class="green" target="_blank">Building a Code of Ethics in the Era of #metoo</a> at APAP, New York January 4th, 2019</b-list-group-item>
-        <b-list-group-item>Co-Curator of <a href="http://www.tctwentypercent.org/current-season/controlled-burn/" class="green" target="_blank">20% Theater Company Controlled Burn</a> <i>Queer Performance for a World on Fire.</i></b-list-group-item>
+        <b-list-group-item>Panelist for <a href="http://apapnyciframe.azurewebsites.net/SessionDetail.aspx?id=482281" type="primary" target="_blank">Building a Code of Ethics in the Era of #metoo</a> at APAP, New York January 4th, 2019</b-list-group-item>
+        <b-list-group-item>Co-Curator of <a href="http://www.tctwentypercent.org/current-season/controlled-burn/" type="primary" target="_blank">20% Theater Company Controlled Burn</a> <i>Queer Performance for a World on Fire.</i></b-list-group-item>
         <b-list-group-item>Cowles Center Generating Room Artist-in-Residence January - May 2019
 This residency will support the development of a new work, Blood Language, and host free workshop and community dialogue events around the topics of improvisation and artistic authorship, identity politics, diversity and inclusion.</b-list-group-item>
         <b-list-group-item>Blood Language is a new ensemble work, it is a ritual of identity, personified by archetypes; which centers experiences of otherness, belonging and duality within oneself; authored by an ensemble of BIPOC, queer and artists with invisible disabilities.</b-list-group-item>
         <b-list-group-item>Happy Hour performance of Blood Language at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
         <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at Zenon Dance School, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
-        <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" class="green" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
+        <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" type="primary" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
         <b-list-group-item>Taja Will <a href="http://www.mcknightdancechoreo.org/fellows/taja-will">McKnight Choreography Fellow</a></b-list-group-item>
       </b-list-group>
     </p>
@@ -165,9 +165,9 @@ This residency will support the development of a new work, Blood Language, and h
     </b-row>
       <b-col lg="4"></b-col>
       <b-col lg="4">  
-        <!-- <a href="https://vimeo.com/user4594927" class="green" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
-        <a href="mailto:tajawill@gmail.com" class="green" target="_blank"><b-img src="/static/email-12-24.png"/></a>
-        <a href="https://www.instagram.com/tajawillxo/" class="green" target="_blank"><b-img src="/static/instagram-5-24.png"/></a> -->
+        <!-- <a href="https://vimeo.com/user4594927" type="primary" target="_blank"><b-img src="/static/vimeo-24.png"/></a>
+        <a href="mailto:tajawill@gmail.com" type="primary" target="_blank"><b-img src="/static/email-12-24.png"/></a>
+        <a href="https://www.instagram.com/tajawillxo/" type="primary" target="_blank"><b-img src="/static/instagram-5-24.png"/></a> -->
       </b-col>
       <b-col lg="4"></b-col>
     
