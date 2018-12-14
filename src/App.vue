@@ -12,21 +12,57 @@
   <div id="app" variant="transparent">
     <div class="fixed-top p-2">
     <header>
-      <b-navbar toggleable="md" variant="transparent">
+    <b-navbar variant="transparent" toggleable="xl">
+    <b-navbar-brand class="mb-0"><h1>TAJA WILL</h1></b-navbar-brand>
+  </b-navbar>
+    <!-- <b-navbar toggleable="xl" variant="transparent"> -->
+  
+  <!-- <b-navbar-toggle target="nav_collapse" class="nav-items" id="menu">MENU</b-navbar-toggle> -->
+  <!-- <b-navbar-brand href="#" class="mb-5" id="h1-name">Motor City Tap Fest</b-navbar-brand> -->
+  <!-- <b-navbar-toggle target="nav_collapse" variant="dark" class="nav-items ml-auto"></b-navbar-toggle>
+  <b-collapse is-nav id="nav_collapse">
+
+   
+    <b-navbar-nav class="ml-auto m-0">
+      <b-nav-item class="nav-items" v-bind:to="'locaccom'">LOCATION +<br/> ACCOMMODATIONS</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'faculty'">FACULTY</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'mcsoles'">MOTOR CITY<br/>SOLES</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'chorchal'">MCTF CHOREOGRAPHER'S<br/>CHALLENGE</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'partshowcase'">PARTICIPANTS<br/>SHOWCASE</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'auditions'">AUDITIONS</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'scholarships'">SCHOLARSHIPS</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'store'">STORE</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT +<br/>CONTACT</b-nav-item>
+      
+    </b-navbar-nav>
+
+  </b-collapse>
+</b-navbar> -->
+  <!-- As a heading -->
+  <!-- <b-navbar variant="transparent" toggleable="xl">
+    <b-navbar-brand class="mb-0"><h1>TAJA WILL</h1></b-navbar-brand>
+  </b-navbar>
+
+<b-navbar toggleable="xl" variant="transparent">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-  <b-navbar-brand href="#"><h1>TAJA WILL</h1></b-navbar-brand>
+  <b-collapse is-nav id="nav_collapse" variant="dark">
 
-  <b-collapse is-nav id="nav_collapse">
-
-    <b-navbar-nav>
-      <b-nav-item href="#">Link</b-nav-item>
-      <b-nav-item href="#" disabled>Disabled</b-nav-item>
-    </b-navbar-nav>
-
-    <!-- Right aligned nav items -->
+  
+    <b-dropdown-item>First Action</b-dropdown-item>
+    <b-dropdown-item>Second Action</b-dropdown-item>
+    <b-dropdown-item>Third Action</b-dropdown-item>
+    <b-dropdown-divider></b-dropdown-divider>
+    <b-dropdown-item>Something else here...</b-dropdown-item>
+    <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+  
     <b-navbar-nav class="ml-auto">
+
+      <b-nav-form>
+        <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search"/>
+        <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+      </b-nav-form>
 
       <b-nav-item-dropdown text="Lang" right>
         <b-dropdown-item href="#">EN</b-dropdown-item>
@@ -36,27 +72,18 @@
       </b-nav-item-dropdown>
 
       <b-nav-item-dropdown right>
-        <!-- Using button-content slot -->
+        
+        <template slot="button-content">
+          <em>User</em>
+        </template>
         <b-dropdown-item href="#">Profile</b-dropdown-item>
         <b-dropdown-item href="#">Signout</b-dropdown-item>
       </b-nav-item-dropdown>
     </b-navbar-nav>
 
   </b-collapse>
-</b-navbar>
-      <!-- <h1 class="text-left">TAJA WILL</h1>
-      <span class="float-right">
-  <b-btn v-b-toggle.collapse1 variant="primary">Toggle Collapse</b-btn>
-  <b-collapse id="collapse1" class="mt-2">
-    <b-card>
-      <p class="card-text">Collapse contents Here</p>
-      <b-btn v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</b-btn>
-      <b-collapse id=collapse1_inner class="mt-2">
-        <b-card>Hello!</b-card>
-      </b-collapse>
-    </b-card>
-  </b-collapse>
-</span> -->
+</b-navbar> -->
+  
     </header>
 <div class="row">
 <div class="col-3">
