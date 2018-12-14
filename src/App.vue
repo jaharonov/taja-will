@@ -113,10 +113,6 @@
        <span>&copy;2018 Website by <a href="http://www.jaharonov.com" type="primary" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
-    
-    
-  
-
   
 </div>
 </b-container>
@@ -124,10 +120,16 @@
 </template>
 
 <style lang="scss">
-
+a {
+  color: $primary;
+}
 a:link {
   text-decoration: none;
 }
+a:hover {
+  text-decoration: none;
+}
+
 h1, h2 {
   font-weight: normal;
   color: #2c3e50;
