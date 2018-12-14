@@ -121,7 +121,7 @@
 
 <style lang="scss">
 a {
-  color: $primary;
+  color: #1AA17F;
 }
 a:link {
   text-decoration: none;
