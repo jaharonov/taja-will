@@ -1,6 +1,6 @@
 <template>
 
-  <div class="hello">
+  <div class="app">
   <b-row>
   <b-col class="p-3 pb-5">
     <h4 class="text-left">Socially Engaged Artist & Healing Practitioner</h4>
@@ -173,7 +173,9 @@ This residency will support the development of a new work, Blood Language, and h
     
   </div>
 </template>
+<style lang="scss">
 
+</style>
 <script>
   import Parallax from 'vue-parallaxy'
   export default {
