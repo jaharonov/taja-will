@@ -118,17 +118,36 @@
 </b-container>
   </html>
 </template>
+<style scoped>
+ a {
+   color: #1AA17F;
+   text-decoration: none;
+ }
 
-<style lang="scss">
-a {
-  color: #1AA17F;
-}
+ /* unvisited link */
 a:link {
+  color: #1AA17F;
   text-decoration: none;
 }
+
+/* visited link */
+a:visited {
+  color: #1AA17F;
+  text-decoration: none;
+}
+
+/* mouse over link */
 a:hover {
+  color: #3aa173;
   text-decoration: none;
 }
+
+/* selected link */
+a:active {
+  color: #3aa173;
+}
+</style>
+<style lang="scss">
 
 h1, h2 {
   font-weight: normal;
@@ -144,18 +163,6 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-
-/* a {
-  color: #42b983;
-}
-
-a:hover {
-  color: #3aa173;
-}
-
-a:active {
-  color: lightcoral;
-} */
 
 body {
   margin: 0;

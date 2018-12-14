@@ -178,6 +178,29 @@ This residency will support the development of a new work, Blood Language, and h
    color: #1AA17F;
    text-decoration: none;
  }
+
+ /* unvisited link */
+a:link {
+  color: #1AA17F;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #1AA17F;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #3aa173;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #3aa173;
+}
 </style>
 <script>
   import Parallax from 'vue-parallaxy'
