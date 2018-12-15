@@ -155,7 +155,7 @@
   <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/headshot4.jpg" class="pt-5" fluid-grow/>
   </parallax>
-  <figcaption class="text-right">Photo by Nanne Sorvold</figcaption>
+  <figcaption class="text-right">Photo by Blake Nellis</figcaption>
   </figure>
   </b-col>
   </b-row>
