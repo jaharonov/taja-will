@@ -3,7 +3,7 @@
   <div class="app">
   <b-row>
   <b-col class="p-3 pb-5">
-    <h4 class="text-left">Socially Engaged Artist & Healing Practitioner</h4>
+    <h4 class="text-left pb-4"><strong>Socially Engaged Artist & Healing Practitioner</strong></h4>
     <p class="text-justify">
       <i>My work animates questions of identity.</i>
     </p>
@@ -24,24 +24,26 @@
       without representing intimacy, we commit to being intimate. This is part of the magic, using intention, improvisation and design to create 
       new works that comment on how I perceive contemporary humanity.</i>
     </p>
-
   </b-col>
   <b-col lg="7" class="p-3 pb-5">
+  <figure>
   <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/bestever.jpg" fluid/>
   </parallax>
+  <figcaption class="text-right">Photo by Robbie Sweeny</figcaption>
+  </figure>
   </b-col>
   </b-row>
   <b-row>
   <b-col class="p-3 text-left pt-5">
-    <h4>Choreographer & Performer</h4>
+    <h4 class="pb-4"><strong>Choreographer & Performer</strong></h4>
     <p class="text-left">
       <strong>Gospels of Oblivion: To the End 2018</strong>
     </p>
     <p class="text-justify">
-      ‘Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom. — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" type="primary" target="_blank">Gospels of Oblivion: To the End</a>,  May 2018. 
+      <i>"Uniting sequins and survivalism for an absorbing exploration into the waning days of humanity...the situation may seem dire, but Will envisions a future where a touch of glamour becomes a coping mechanism for doom."</i> — Dance Critic Caroline Palmer comments on <a href="http://www.startribune.com/minnesota-choreographers-serve-up-dance-for-times-of-duress-at-candy-box-festival/481948751/" type="primary" target="_blank">Gospels of Oblivion: To the End</a>, May 2018. 
     </p>
-    <p>Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
+    <p class="text-justify">Presented by ARENA Dances and the Candy Box Dance Festival at the Southern Theater, with additional support from the Minnesota State Arts Board Artist Initiative Award 2018, and Metropolitan Regional Arts Council Next Step Award 2016.
 
     </p>
     <!-- <b-img class="p-4" center src="/static/dn3_2387.jpg" fluid/> -->
@@ -53,7 +55,7 @@
     <div style="padding:70% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274270653?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
   </b-col>
   <b-row class="p-2 pt-5 pb-5">
-    <h2><strong><i>She's after connection. Looking at Will is like opening the door to a fire: she glows</i></strong><i>—Lightsey Darst for MN Artists</i></h2>
+    <h2><strong><i>"She's after connection. Looking at Will is like opening the door to a fire: she glows"</i></strong><i>—Lightsey Darst for MN Artists</i></h2>
   </b-row>
   <b-row>
   <b-col lg="6" class="p-3 text-left pt-3">
@@ -63,7 +65,7 @@
     <p class="text-justify">
       An evening length solo woven from Will’s personal mythology. She creates the magical world of her genetic and artistic identity. As a queer, transracial adoptee she has come to know herself as a cultural fugitive, taking on personality as it fits; shape-shifting as way to escape displacement; this is the preservation of identity.
     </p>
-    <p>
+    <p class="text-justify">
       Presented by The Right Here Showcase at the Tek Box Theater, created with support of the Jerome Foundation Travel Study Award, Foundation for Contemporary Arts Emergency grant, and developed as artist in residency at the Joe Goode Annex in San Francisco.
     </p>
     <p class="text-justify">
@@ -84,9 +86,12 @@
   </parallax>
   </b-col> -->
   <b-col lg="6" class="p-3 pt-5">
-    <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
+  <figure>
+  <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/ciwbrian.jpg" fluid/>
   </parallax>
+  <figcaption class="text-right">Photo by Nanne Sorvold</figcaption>
+  </figure>
     <!-- <parallax-container>
 
             <parallax-element :parallaxStrength="-5" :type="'translation'">
@@ -100,7 +105,7 @@
   </parallax> -->
   </b-col>
   <b-col lg="6" class="p-3 pt-5">
-    <h4 class="text-left">Educator & Facilitator</h4>
+    <h4 class="text-left pb-4"><strong>Educator & Facilitator</strong></h4>
     <p class="text-justify">
       My practice and pedagogy are grounded in somatic practices, structures of performative improvisation, contact improvisation and everyday magic. Within a workshop or laboratory structure I’m interested in the foundational awareness of systemic power dynamics, cultural patterns of privilege, and our ability to shift toward greater equity in an embodied, co-learning space.
     </p>
@@ -126,24 +131,11 @@
     </div>
   </b-col>
   <b-col lg="6" class="p-3 pt-5">
-    <!-- <b-img class="p-2 pt-5 pb-5" center src="/static/dn3_2387.jpg" fluid/> -->
-      <!-- <parallax-container>
-
-    <parallax-element :parallaxStrength="1" :type="'translation'">
-        <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
-     </parallax-element>
-    <parallax-element :parallaxStrength="-5" :type="'translation'">
-        <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p>
-     </parallax-element>
-</parallax-container> -->
-    <!-- <h4 class="text-left"><a href="https://contactquarterly.com/cq/article-gallery/view/ci-intersections#$" type="primary" target="_blank">Inclusion or Invisibility for POC in CI</a></h4>
-    <p class="text-right"><strong>for Contact Quarterly by Taja Will, May 2018</strong></p> -->
-    
   </b-col>
   </b-row>
   <b-row>
   <b-col lg="6" class="p-3 pb-5">
-    <h4 class="text-left">Biography</h4>
+    <h4 class="text-left pb-4"><strong>Biography</strong></h4>
     <p class="text-justify">
       Taja Will is a queer, Chilean adoptee, performer, choreographer, therapist and restorative justice facilitator. Her approach integrates improvisation, somatic modalities, text and vocals in contemporary  performance. Will’s aesthetic is one of spontaneity, bold choice making, sonic and kinetic partnership and the ability to move in relationship to risk and intimacy.  She explores visceral connections to current socio-cultural realities through feminine archetypes and everyday magic.
     </p>
@@ -159,9 +151,12 @@
 
   </b-col>
   <b-col lg="6" class="p-3 pb-5">
+  <figure>
   <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
   <b-img center src="/static/headshot4.jpg" class="pt-5" fluid-grow/>
   </parallax>
+  <figcaption class="text-right">Photo by Nanne Sorvold</figcaption>
+  </figure>
   </b-col>
   </b-row>
   <b-row>
@@ -173,12 +168,12 @@
     <p class="card-text text-justify">
       <b-list-group>
         <b-list-group-item>Panelist for <a href="http://apapnyciframe.azurewebsites.net/SessionDetail.aspx?id=482281" type="primary" target="_blank">Building a Code of Ethics in the Era of #metoo</a> at APAP, New York January 4th, 2019</b-list-group-item>
+        <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at <a href="https://zenondance.org/school/" type="primary" target="_blank">Zenon Dance School</a>, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
         <b-list-group-item>Co-Curator of <a href="http://www.tctwentypercent.org/current-season/controlled-burn/" type="primary" target="_blank">20% Theater Company Controlled Burn</a> <i>Queer Performance for a World on Fire.</i></b-list-group-item>
         <b-list-group-item>Cowles Center Generating Room Artist-in-Residence January - May 2019
-This residency will support the development of a new work, Blood Language, and host free workshop and community dialogue events around the topics of improvisation and artistic authorship, identity politics, diversity and inclusion.</b-list-group-item>
-        <b-list-group-item>Blood Language is a new ensemble work, it is a ritual of identity, personified by archetypes; which centers experiences of otherness, belonging and duality within oneself; authored by an ensemble of BIPOC, queer and artists with invisible disabilities.</b-list-group-item>
-        <b-list-group-item>Happy Hour performance of Blood Language at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
-        <b-list-group-item>Fundamental Improvisation/Contact Improvisation class at Zenon Dance School, Sundays 2-3:30 at the Cowles Center starting January 13th.</b-list-group-item>
+        This residency will support the development of a new work, <i>Blood Language</i>, and host free workshop and community dialogue events around the topics of improvisation and artistic authorship, identity politics, diversity and inclusion.
+        <i>Blood Language</i> is a new ensemble work, it is a ritual of identity, personified by archetypes; which centers experiences of otherness, belonging and duality within oneself; authored by an ensemble of BIPOC, queer and artists with invisible disabilities.</b-list-group-item>
+        <b-list-group-item>Happy Hour performance of <i>Blood Language</i> at the Candy Box Dance Festival presented by Arena Dances at the Southern Theater, April 29th-May 4th, 2019. </b-list-group-item>
         <b-list-group-item>2019 <a href="https://www.earthdance.net/queerlabandjam2019" type="primary" target="_blank">Queer Lab & Jam at Earthdance</a> co-facilitator with Ryuta Iwashita. Celebrate, disrupt, and re-imagine Contact Improvisation. The Queer CI Lab and Jam aims to bring queer experience, thought, and politics into the practice of CI through movement, dialogue, workshops, & jamming.</b-list-group-item>
         <b-list-group-item>2018-2019 <a href="http://www.mcknightdancechoreo.org/fellows/taja-will" type="primary" target="_blank">McKnight Choreography Fellow</a></b-list-group-item>
       </b-list-group>
@@ -197,6 +192,9 @@ This residency will support the development of a new work, Blood Language, and h
   </div>
 </template>
 <style scoped>
+h4 {
+  text-transform: uppercase;
+}
  a {
    color: #1AA17F;
    text-decoration: none;
