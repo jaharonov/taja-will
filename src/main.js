@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueMouseParallax from 'vue-mouse-parallax'
 
-Vue.use(VueMouseParallax)
 Vue.use(BootstrapVue)
 Vue.use(Parallax)
+Vue.use(VueMouseParallax)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -19,5 +19,5 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App, Parallax }
+  components: { App, Parallax, VueMouseParallax }
 })

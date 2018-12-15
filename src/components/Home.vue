@@ -2,7 +2,7 @@
 
   <div class="app">
   <b-row>
-  <b-col class="p-3 pb-5">
+  <b-col lg="6" class="p-3 pb-5">
     <h4 class="text-left pb-4"><strong>Socially Engaged Artist & Healing Practitioner</strong></h4>
     <p class="text-justify">
       <i>My work animates questions of identity.</i>
@@ -25,10 +25,10 @@
       new works that comment on how I perceive contemporary humanity.</i>
     </p>
   </b-col>
-  <b-col lg="7" class="p-3 pb-5">
+  <b-col lg="6" class="p-3 pb-5">
   <figure>
   <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
-  <b-img center src="/static/bestever.jpg" fluid/>
+  <b-img center src="/static/bestever.jpg" fluid-grow/>
   </parallax>
   <figcaption class="text-right">Photo by Robbie Sweeny</figcaption>
   </figure>
@@ -86,9 +86,9 @@
   </parallax>
   </b-col> -->
   <b-col lg="6" class="p-3 pt-5">
-  <figure>
+  <figure height="75%">
   <parallax :speed-factor="0.6" :parallax="true" breakpoint="(min-width: 80px)">
-  <b-img center src="/static/ciwbrian.jpg" fluid/>
+  <b-img center src="/static/ciwbrian.jpg" fluid-grow/>
   </parallax>
   <figcaption class="text-right">Photo by Nanne Sorvold</figcaption>
   </figure>
