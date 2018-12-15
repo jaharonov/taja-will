@@ -119,6 +119,10 @@
   </html>
 </template>
 <style scoped>
+h1 {
+  color: #292b2c;
+  
+}
  a {
    color: #1AA17F;
    text-decoration: none;

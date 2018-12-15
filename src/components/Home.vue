@@ -192,6 +192,7 @@
   </div>
 </template>
 <style scoped>
+
 h4 {
   text-transform: uppercase;
 }
