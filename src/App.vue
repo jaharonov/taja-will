@@ -110,7 +110,7 @@
       </div>
       <br/>
 
-       <span>&copy;2018 Website by <a href="http://www.jaharonov.com" type="primary" target="_blank">J Aharonov</a>.</span>
+       <span>&copy;2018 Website by <a href="http://www.jaffaaharonov.com" type="primary" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
   
